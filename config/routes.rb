@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get("status" => "status#index")
-  get("consoles" => "consoles#index")
+  get('home' => 'home#index')
+  get('about' => 'about#index')
+  get('status' => 'status#index')
+  get('consoles' => 'consoles#index')
 end
